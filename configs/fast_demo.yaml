@@ -1,0 +1,61 @@
+# Smaller, CPU-friendly experiment used for the reproducible demonstration.
+experiment:
+  name: demo
+  seed: 42
+  deterministic: true
+
+model:
+  channels: 64
+  residual_blocks: 4
+  input_channels: 2
+
+mcts:
+  simulations: 24
+  c_puct: 1.5
+  dirichlet_alpha: 0.3
+  dirichlet_epsilon: 0.25
+
+selfplay:
+  games_per_iteration: 16
+  workers: 1
+  temperature: 1.0
+  temperature_moves: 10
+  save_examples: true
+
+training:
+  iterations: 20
+  epochs: 3
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  l2_coefficient: 0.0001
+  gradient_clip: 1.0
+  replay_capacity: 30000
+  min_buffer_size: 128
+  max_batches_per_epoch: 32
+  lr_step_size: 6
+  lr_gamma: 0.7
+  save_buffer: true
+
+evaluation:
+  candidate_games: 20
+  random_games: 20
+  tactical_games: 10
+  simulations: 24
+  promotion_threshold: 0.55
+  temperature: 0.0
+
+paths:
+  checkpoints: checkpoints
+  logs: logs
+  results: results
+
+ui:
+  width: 1280
+  height: 800
+  fps: 60
+  animation_speed: 900
+  default_simulations: 50
+
+tensorboard:
+  enabled: true
