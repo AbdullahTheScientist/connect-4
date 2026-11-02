@@ -1,0 +1,392 @@
+2026-10-31 20:17:52 | INFO    | Trainer ready | experiment=demo | iteration=0/20 | device=cpu | params=483144
+2026-10-31 20:17:52 | INFO    | Iteration 1: generating 16 self-play games
+2026-10-31 20:17:55 | INFO    | Self-play game 3/16 | moves=11 winner=1
+2026-10-31 20:17:57 | INFO    | Self-play game 6/16 | moves=9 winner=1
+2026-10-31 20:18:00 | INFO    | Self-play game 9/16 | moves=15 winner=1
+2026-10-31 20:18:06 | INFO    | Self-play game 12/16 | moves=42 winner=2
+2026-10-31 20:18:08 | INFO    | Self-play game 15/16 | moves=7 winner=1
+2026-10-31 20:18:09 | INFO    | Self-play game 16/16 | moves=27 winner=1
+2026-10-31 20:18:10 | INFO    | Self-play complete: 16 games, 246 examples, avg length 15.4, 17.1s
+2026-10-31 20:18:10 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:18:10 | INFO    | Epoch 1/3 complete | avg loss 3.0441 | lr 0.001
+2026-10-31 20:18:10 | INFO    | Epoch 2/3 complete | avg loss 2.8891 | lr 0.001
+2026-10-31 20:18:11 | INFO    | Epoch 3/3 complete | avg loss 2.7671 | lr 0.001
+2026-10-31 20:18:11 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:18:34 | INFO    | Candidate vs best: candidate_1 vs best: 7W/13L/0D (score 35.0%, avg length 15.7) | promoted=False
+2026-10-31 20:18:34 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:18:46 | INFO    | Best vs random: best vs Random: 14W/5L/1D (score 72.5%, avg length 16.3)
+2026-10-31 20:18:46 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:18:49 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 7.5)
+2026-10-31 20:18:49 | INFO    | Iteration 1 metrics | policy 1.9234 | value 0.6918 | total 2.7671 | buffer 246 | vs_random 0.7 | vs_best 0.35 | promoted False
+2026-10-31 20:18:49 | INFO    | Iteration 2: generating 16 self-play games
+2026-10-31 20:18:52 | INFO    | Self-play game 3/16 | moves=18 winner=2
+2026-10-31 20:18:54 | INFO    | Self-play game 6/16 | moves=9 winner=1
+2026-10-31 20:18:58 | INFO    | Self-play game 9/16 | moves=7 winner=1
+2026-10-31 20:19:03 | INFO    | Self-play game 12/16 | moves=19 winner=1
+2026-10-31 20:19:08 | INFO    | Self-play game 15/16 | moves=17 winner=1
+2026-10-31 20:19:09 | INFO    | Self-play game 16/16 | moves=8 winner=2
+2026-10-31 20:19:09 | INFO    | Self-play complete: 16 games, 273 examples, avg length 17.1, 19.6s
+2026-10-31 20:19:09 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:19:10 | INFO    | Epoch 1/3 complete | avg loss 2.9097 | lr 0.001
+2026-10-31 20:19:11 | INFO    | Epoch 2/3 complete | avg loss 2.7215 | lr 0.001
+2026-10-31 20:19:11 | INFO    | Epoch 3/3 complete | avg loss 2.5898 | lr 0.001
+2026-10-31 20:19:11 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:19:32 | INFO    | Candidate vs best: candidate_2 vs best: 16W/4L/0D (score 80.0%, avg length 14.1) | promoted=True
+2026-10-31 20:19:32 | INFO    | Candidate promoted to best at iteration 2
+2026-10-31 20:19:32 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:19:43 | INFO    | Best vs random: best vs Random: 17W/3L/0D (score 85.0%, avg length 15.4)
+2026-10-31 20:19:43 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:19:47 | INFO    | Best vs tactical: best vs Tactical: 2W/8L/0D (score 20.0%, avg length 8.9)
+2026-10-31 20:19:47 | INFO    | Iteration 2 metrics | policy 1.9055 | value 0.5323 | total 2.5898 | buffer 519 | vs_random 0.85 | vs_best 0.8 | promoted True
+2026-10-31 20:19:47 | INFO    | Iteration 3: generating 16 self-play games
+2026-10-31 20:19:49 | INFO    | Self-play game 3/16 | moves=11 winner=1
+2026-10-31 20:19:52 | INFO    | Self-play game 6/16 | moves=7 winner=1
+2026-10-31 20:19:56 | INFO    | Self-play game 9/16 | moves=16 winner=2
+2026-10-31 20:19:58 | INFO    | Self-play game 12/16 | moves=8 winner=2
+2026-10-31 20:20:01 | INFO    | Self-play game 15/16 | moves=7 winner=1
+2026-10-31 20:20:01 | INFO    | Self-play game 16/16 | moves=7 winner=1
+2026-10-31 20:20:01 | INFO    | Self-play complete: 16 games, 190 examples, avg length 11.9, 14.1s
+2026-10-31 20:20:01 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:20:03 | INFO    | Epoch 1/3 complete | avg loss 2.5279 | lr 0.001
+2026-10-31 20:20:04 | INFO    | Epoch 2/3 complete | avg loss 2.4491 | lr 0.001
+2026-10-31 20:20:05 | INFO    | Epoch 3/3 complete | avg loss 2.3728 | lr 0.001
+2026-10-31 20:20:05 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:20:21 | INFO    | Candidate vs best: candidate_3 vs best: 12W/8L/0D (score 60.0%, avg length 11.2) | promoted=True
+2026-10-31 20:20:21 | INFO    | Candidate promoted to best at iteration 3
+2026-10-31 20:20:21 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:20:35 | INFO    | Best vs random: best vs Random: 16W/4L/0D (score 80.0%, avg length 19.2)
+2026-10-31 20:20:35 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:20:38 | INFO    | Best vs tactical: best vs Tactical: 1W/9L/0D (score 10.0%, avg length 8.2)
+2026-10-31 20:20:38 | INFO    | Iteration 3 metrics | policy 1.8940 | value 0.3278 | total 2.3728 | buffer 709 | vs_random 0.8 | vs_best 0.6 | promoted True
+2026-10-31 20:20:38 | INFO    | Iteration 4: generating 16 self-play games
+2026-10-31 20:20:42 | INFO    | Self-play game 3/16 | moves=33 winner=1
+2026-10-31 20:20:45 | INFO    | Self-play game 6/16 | moves=8 winner=2
+2026-10-31 20:20:51 | INFO    | Self-play game 9/16 | moves=26 winner=2
+2026-10-31 20:20:55 | INFO    | Self-play game 12/16 | moves=19 winner=1
+2026-10-31 20:21:00 | INFO    | Self-play game 15/16 | moves=28 winner=2
+2026-10-31 20:21:01 | INFO    | Self-play game 16/16 | moves=7 winner=1
+2026-10-31 20:21:01 | INFO    | Self-play complete: 16 games, 292 examples, avg length 18.2, 22.6s
+2026-10-31 20:21:01 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:21:03 | INFO    | Epoch 1/3 complete | avg loss 2.4063 | lr 0.001
+2026-10-31 20:21:05 | INFO    | Epoch 2/3 complete | avg loss 2.3496 | lr 0.001
+2026-10-31 20:21:06 | INFO    | Epoch 3/3 complete | avg loss 2.2959 | lr 0.001
+2026-10-31 20:21:06 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:21:17 | INFO    | Candidate vs best: candidate_4 vs best: 10W/10L/0D (score 50.0%, avg length 8.0) | promoted=False
+2026-10-31 20:21:17 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:21:28 | INFO    | Best vs random: best vs Random: 18W/2L/0D (score 90.0%, avg length 14.8)
+2026-10-31 20:21:28 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:21:32 | INFO    | Best vs tactical: best vs Tactical: 2W/8L/0D (score 20.0%, avg length 8.1)
+2026-10-31 20:21:32 | INFO    | Iteration 4 metrics | policy 1.8631 | value 0.2833 | total 2.2959 | buffer 1001 | vs_random 0.9 | vs_best 0.5 | promoted False
+2026-10-31 20:21:32 | INFO    | Iteration 5: generating 16 self-play games
+2026-10-31 20:21:34 | INFO    | Self-play game 3/16 | moves=10 winner=2
+2026-10-31 20:21:38 | INFO    | Self-play game 6/16 | moves=10 winner=2
+2026-10-31 20:21:46 | INFO    | Self-play game 9/16 | moves=13 winner=1
+2026-10-31 20:21:51 | INFO    | Self-play game 12/16 | moves=24 winner=2
+2026-10-31 20:21:56 | INFO    | Self-play game 15/16 | moves=18 winner=2
+2026-10-31 20:21:59 | INFO    | Self-play game 16/16 | moves=35 winner=1
+2026-10-31 20:21:59 | INFO    | Self-play complete: 16 games, 311 examples, avg length 19.4, 27.6s
+2026-10-31 20:21:59 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:22:03 | INFO    | Epoch 1/3 complete | avg loss 2.5246 | lr 0.001
+2026-10-31 20:22:06 | INFO    | Epoch 2/3 complete | avg loss 2.4195 | lr 0.001
+2026-10-31 20:22:08 | INFO    | Epoch 3/3 complete | avg loss 2.3568 | lr 0.001
+2026-10-31 20:22:08 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:22:38 | INFO    | Candidate vs best: candidate_5 vs best: 8W/12L/0D (score 40.0%, avg length 22.4) | promoted=False
+2026-10-31 20:22:38 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:22:49 | INFO    | Best vs random: best vs Random: 18W/2L/0D (score 90.0%, avg length 15.4)
+2026-10-31 20:22:49 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:22:52 | INFO    | Best vs tactical: best vs Tactical: 1W/9L/0D (score 10.0%, avg length 8.2)
+2026-10-31 20:22:53 | INFO    | Iteration 5 metrics | policy 1.8601 | value 0.3472 | total 2.3568 | buffer 1312 | vs_random 0.9 | vs_best 0.4 | promoted False
+2026-10-31 20:22:53 | INFO    | Iteration 6: generating 16 self-play games
+2026-10-31 20:22:58 | INFO    | Self-play game 3/16 | moves=20 winner=2
+2026-10-31 20:23:00 | INFO    | Self-play game 6/16 | moves=8 winner=2
+2026-10-31 20:23:04 | INFO    | Self-play game 9/16 | moves=11 winner=1
+2026-10-31 20:23:07 | INFO    | Self-play game 12/16 | moves=11 winner=1
+2026-10-31 20:23:11 | INFO    | Self-play game 15/16 | moves=7 winner=1
+2026-10-31 20:23:12 | INFO    | Self-play game 16/16 | moves=19 winner=1
+2026-10-31 20:23:12 | INFO    | Self-play complete: 16 games, 265 examples, avg length 16.6, 19.6s
+2026-10-31 20:23:12 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:23:15 | INFO    | Epoch 1/3 complete | avg loss 2.5530 | lr 0.001
+2026-10-31 20:23:17 | INFO    | Epoch 2/3 complete | avg loss 2.4553 | lr 0.001
+2026-10-31 20:23:19 | INFO    | Epoch 3/3 complete | avg loss 2.3930 | lr 0.001
+2026-10-31 20:23:20 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:23:30 | INFO    | Candidate vs best: candidate_6 vs best: 10W/10L/0D (score 50.0%, avg length 8.0) | promoted=False
+2026-10-31 20:23:31 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:23:42 | INFO    | Best vs random: best vs Random: 15W/5L/0D (score 75.0%, avg length 16.4)
+2026-10-31 20:23:42 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:23:45 | INFO    | Best vs tactical: best vs Tactical: 3W/7L/0D (score 30.0%, avg length 7.6)
+2026-10-31 20:23:46 | INFO    | Iteration 6 metrics | policy 1.8526 | value 0.3910 | total 2.3930 | buffer 1577 | vs_random 0.75 | vs_best 0.5 | promoted False
+2026-10-31 20:23:46 | INFO    | Iteration 7: generating 16 self-play games
+2026-10-31 20:23:49 | INFO    | Self-play game 3/16 | moves=14 winner=2
+2026-10-31 20:23:51 | INFO    | Self-play game 6/16 | moves=15 winner=1
+2026-10-31 20:23:55 | INFO    | Self-play game 9/16 | moves=14 winner=2
+2026-10-31 20:23:59 | INFO    | Self-play game 12/16 | moves=10 winner=2
+2026-10-31 20:24:01 | INFO    | Self-play game 15/16 | moves=9 winner=1
+2026-10-31 20:24:01 | INFO    | Self-play game 16/16 | moves=7 winner=1
+2026-10-31 20:24:01 | INFO    | Self-play complete: 16 games, 224 examples, avg length 14.0, 15.7s
+2026-10-31 20:24:01 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:24:04 | INFO    | Epoch 1/3 complete | avg loss 2.6476 | lr 0.001
+2026-10-31 20:24:07 | INFO    | Epoch 2/3 complete | avg loss 2.5329 | lr 0.001
+2026-10-31 20:24:10 | INFO    | Epoch 3/3 complete | avg loss 2.4527 | lr 0.001
+2026-10-31 20:24:10 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:24:40 | INFO    | Candidate vs best: candidate_7 vs best: 11W/9L/0D (score 55.0%, avg length 21.8) | promoted=True
+2026-10-31 20:24:40 | INFO    | Candidate promoted to best at iteration 7
+2026-10-31 20:24:40 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:24:49 | INFO    | Best vs random: best vs Random: 18W/2L/0D (score 90.0%, avg length 13.2)
+2026-10-31 20:24:49 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:24:52 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 7.5)
+2026-10-31 20:24:52 | INFO    | Iteration 7 metrics | policy 1.8529 | value 0.4505 | total 2.4527 | buffer 1801 | vs_random 0.9 | vs_best 0.55 | promoted True
+2026-10-31 20:24:52 | INFO    | Iteration 8: generating 16 self-play games
+2026-10-31 20:24:54 | INFO    | Self-play game 3/16 | moves=9 winner=1
+2026-10-31 20:25:00 | INFO    | Self-play game 6/16 | moves=38 winner=2
+2026-10-31 20:25:03 | INFO    | Self-play game 9/16 | moves=10 winner=2
+2026-10-31 20:25:05 | INFO    | Self-play game 12/16 | moves=8 winner=2
+2026-10-31 20:25:09 | INFO    | Self-play game 15/16 | moves=7 winner=1
+2026-10-31 20:25:10 | INFO    | Self-play game 16/16 | moves=10 winner=2
+2026-10-31 20:25:10 | INFO    | Self-play complete: 16 games, 235 examples, avg length 14.7, 17.6s
+2026-10-31 20:25:10 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:25:13 | INFO    | Epoch 1/3 complete | avg loss 2.3464 | lr 0.001
+2026-10-31 20:25:16 | INFO    | Epoch 2/3 complete | avg loss 2.3173 | lr 0.001
+2026-10-31 20:25:20 | INFO    | Epoch 3/3 complete | avg loss 2.2812 | lr 0.001
+2026-10-31 20:25:20 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:25:36 | INFO    | Candidate vs best: candidate_8 vs best: 13W/7L/0D (score 65.0%, avg length 11.7) | promoted=True
+2026-10-31 20:25:36 | INFO    | Candidate promoted to best at iteration 8
+2026-10-31 20:25:36 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:25:47 | INFO    | Best vs random: best vs Random: 20W/0L/0D (score 100.0%, avg length 16.5)
+2026-10-31 20:25:47 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:25:50 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 10.3)
+2026-10-31 20:25:51 | INFO    | Iteration 8 metrics | policy 1.7899 | value 0.3428 | total 2.2812 | buffer 2036 | vs_random 1.0 | vs_best 0.65 | promoted True
+2026-10-31 20:25:51 | INFO    | Iteration 9: generating 16 self-play games
+2026-10-31 20:25:53 | INFO    | Self-play game 3/16 | moves=12 winner=2
+2026-10-31 20:25:55 | INFO    | Self-play game 6/16 | moves=7 winner=1
+2026-10-31 20:25:59 | INFO    | Self-play game 9/16 | moves=22 winner=2
+2026-10-31 20:26:00 | INFO    | Self-play game 12/16 | moves=7 winner=1
+2026-10-31 20:26:03 | INFO    | Self-play game 15/16 | moves=11 winner=1
+2026-10-31 20:26:03 | INFO    | Self-play game 16/16 | moves=13 winner=1
+2026-10-31 20:26:03 | INFO    | Self-play complete: 16 games, 191 examples, avg length 11.9, 12.8s
+2026-10-31 20:26:03 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:26:07 | INFO    | Epoch 1/3 complete | avg loss 2.2573 | lr 0.001
+2026-10-31 20:26:10 | INFO    | Epoch 2/3 complete | avg loss 2.2327 | lr 0.001
+2026-10-31 20:26:14 | INFO    | Epoch 3/3 complete | avg loss 2.2120 | lr 0.001
+2026-10-31 20:26:14 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:26:33 | INFO    | Candidate vs best: candidate_9 vs best: 10W/10L/0D (score 50.0%, avg length 14.2) | promoted=False
+2026-10-31 20:26:33 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:26:45 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 16.8)
+2026-10-31 20:26:45 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:26:48 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 10.1)
+2026-10-31 20:26:49 | INFO    | Iteration 9 metrics | policy 1.7485 | value 0.3159 | total 2.2120 | buffer 2227 | vs_random 0.95 | vs_best 0.5 | promoted False
+2026-10-31 20:26:49 | INFO    | Iteration 10: generating 16 self-play games
+2026-10-31 20:26:53 | INFO    | Self-play game 3/16 | moves=22 winner=2
+2026-10-31 20:26:56 | INFO    | Self-play game 6/16 | moves=24 winner=2
+2026-10-31 20:27:01 | INFO    | Self-play game 9/16 | moves=32 winner=2
+2026-10-31 20:27:05 | INFO    | Self-play game 12/16 | moves=11 winner=1
+2026-10-31 20:27:07 | INFO    | Self-play game 15/16 | moves=16 winner=2
+2026-10-31 20:27:07 | INFO    | Self-play game 16/16 | moves=8 winner=2
+2026-10-31 20:27:07 | INFO    | Self-play complete: 16 games, 260 examples, avg length 16.2, 18.7s
+2026-10-31 20:27:07 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:27:11 | INFO    | Epoch 1/3 complete | avg loss 2.3553 | lr 0.001
+2026-10-31 20:27:15 | INFO    | Epoch 2/3 complete | avg loss 2.2952 | lr 0.001
+2026-10-31 20:27:19 | INFO    | Epoch 3/3 complete | avg loss 2.2609 | lr 0.001
+2026-10-31 20:27:19 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:27:40 | INFO    | Candidate vs best: candidate_10 vs best: 16W/4L/0D (score 80.0%, avg length 15.6) | promoted=True
+2026-10-31 20:27:40 | INFO    | Candidate promoted to best at iteration 10
+2026-10-31 20:27:40 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:27:49 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 13.7)
+2026-10-31 20:27:49 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:27:52 | INFO    | Best vs tactical: best vs Tactical: 2W/7L/1D (score 25.0%, avg length 10.7)
+2026-10-31 20:27:53 | INFO    | Iteration 10 metrics | policy 1.7460 | value 0.3669 | total 2.2609 | buffer 2487 | vs_random 0.95 | vs_best 0.8 | promoted True
+2026-10-31 20:27:53 | INFO    | Iteration 11: generating 16 self-play games
+2026-10-31 20:27:57 | INFO    | Self-play game 3/16 | moves=21 winner=1
+2026-10-31 20:28:00 | INFO    | Self-play game 6/16 | moves=24 winner=2
+2026-10-31 20:28:03 | INFO    | Self-play game 9/16 | moves=9 winner=1
+2026-10-31 20:28:05 | INFO    | Self-play game 12/16 | moves=11 winner=1
+2026-10-31 20:28:08 | INFO    | Self-play game 15/16 | moves=10 winner=2
+2026-10-31 20:28:09 | INFO    | Self-play game 16/16 | moves=18 winner=2
+2026-10-31 20:28:09 | INFO    | Self-play complete: 16 games, 244 examples, avg length 15.2, 16.4s
+2026-10-31 20:28:09 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:28:13 | INFO    | Epoch 1/3 complete | avg loss 2.2428 | lr 0.001
+2026-10-31 20:28:17 | INFO    | Epoch 2/3 complete | avg loss 2.2098 | lr 0.001
+2026-10-31 20:28:22 | INFO    | Epoch 3/3 complete | avg loss 2.1819 | lr 0.001
+2026-10-31 20:28:22 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:28:50 | INFO    | Candidate vs best: candidate_11 vs best: 8W/12L/0D (score 40.0%, avg length 19.7) | promoted=False
+2026-10-31 20:28:50 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:28:59 | INFO    | Best vs random: best vs Random: 20W/0L/0D (score 100.0%, avg length 13.3)
+2026-10-31 20:28:59 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:29:02 | INFO    | Best vs tactical: best vs Tactical: 3W/6L/1D (score 35.0%, avg length 10.6)
+2026-10-31 20:29:03 | INFO    | Iteration 11 metrics | policy 1.7110 | value 0.3232 | total 2.1819 | buffer 2731 | vs_random 1.0 | vs_best 0.4 | promoted False
+2026-10-31 20:29:03 | INFO    | Iteration 12: generating 16 self-play games
+2026-10-31 20:29:07 | INFO    | Self-play game 3/16 | moves=15 winner=1
+2026-10-31 20:29:09 | INFO    | Self-play game 6/16 | moves=8 winner=2
+2026-10-31 20:29:11 | INFO    | Self-play game 9/16 | moves=17 winner=1
+2026-10-31 20:29:14 | INFO    | Self-play game 12/16 | moves=15 winner=1
+2026-10-31 20:29:17 | INFO    | Self-play game 15/16 | moves=7 winner=1
+2026-10-31 20:29:18 | INFO    | Self-play game 16/16 | moves=13 winner=1
+2026-10-31 20:29:18 | INFO    | Self-play complete: 16 games, 219 examples, avg length 13.7, 15.2s
+2026-10-31 20:29:18 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:29:22 | INFO    | Epoch 1/3 complete | avg loss 2.2920 | lr 0.001
+2026-10-31 20:29:27 | INFO    | Epoch 2/3 complete | avg loss 2.2334 | lr 0.001
+2026-10-31 20:29:31 | INFO    | Epoch 3/3 complete | avg loss 2.1947 | lr 0.001
+2026-10-31 20:29:31 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:29:53 | INFO    | Candidate vs best: candidate_12 vs best: 18W/2L/0D (score 90.0%, avg length 16.6) | promoted=True
+2026-10-31 20:29:54 | INFO    | Candidate promoted to best at iteration 12
+2026-10-31 20:29:54 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:30:02 | INFO    | Best vs random: best vs Random: 18W/2L/0D (score 90.0%, avg length 12.7)
+2026-10-31 20:30:02 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:30:09 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 18.7)
+2026-10-31 20:30:09 | INFO    | Iteration 12 metrics | policy 1.7059 | value 0.3410 | total 2.1947 | buffer 2950 | vs_random 0.9 | vs_best 0.9 | promoted True
+2026-10-31 20:30:09 | INFO    | Iteration 13: generating 16 self-play games
+2026-10-31 20:30:14 | INFO    | Self-play game 3/16 | moves=23 winner=1
+2026-10-31 20:30:17 | INFO    | Self-play game 6/16 | moves=18 winner=2
+2026-10-31 20:30:20 | INFO    | Self-play game 9/16 | moves=28 winner=2
+2026-10-31 20:30:22 | INFO    | Self-play game 12/16 | moves=18 winner=2
+2026-10-31 20:30:27 | INFO    | Self-play game 15/16 | moves=22 winner=2
+2026-10-31 20:30:27 | INFO    | Self-play game 16/16 | moves=9 winner=1
+2026-10-31 20:30:27 | INFO    | Self-play complete: 16 games, 252 examples, avg length 15.8, 17.9s
+2026-10-31 20:30:27 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:30:32 | INFO    | Epoch 1/3 complete | avg loss 2.2063 | lr 0.001
+2026-10-31 20:30:37 | INFO    | Epoch 2/3 complete | avg loss 2.1738 | lr 0.001
+2026-10-31 20:30:42 | INFO    | Epoch 3/3 complete | avg loss 2.1540 | lr 0.001
+2026-10-31 20:30:42 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 20:31:20 | INFO    | Candidate vs best: candidate_13 vs best: 6W/14L/0D (score 30.0%, avg length 30.8) | promoted=False
+2026-10-31 20:31:20 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 20:31:27 | INFO    | Best vs random: best vs Random: 20W/0L/0D (score 100.0%, avg length 11.8)
+2026-10-31 20:31:27 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 20:31:34 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 19.5)
+2026-10-31 20:31:35 | INFO    | Iteration 13 metrics | policy 1.6681 | value 0.3386 | total 2.1540 | buffer 3202 | vs_random 1.0 | vs_best 0.3 | promoted False
+2026-10-31 20:31:35 | INFO    | Iteration 14: generating 16 self-play games
+2026-10-31 20:31:38 | INFO    | Self-play game 3/16 | moves=7 winner=1
+2026-10-31 20:31:42 | INFO    | Self-play game 6/16 | moves=16 winner=2
+2026-10-31 20:31:43 | INFO    | Self-play game 9/16 | moves=9 winner=1
+2026-10-31 20:31:46 | INFO    | Self-play game 12/16 | moves=9 winner=1
+2026-10-31 20:31:49 | INFO    | Self-play game 15/16 | moves=19 winner=1
+2026-10-31 20:31:51 | INFO    | Self-play game 16/16 | moves=23 winner=1
+2026-10-31 20:31:51 | INFO    | Self-play complete: 16 games, 227 examples, avg length 14.2, 16.1s
+2026-10-31 20:31:51 | INFO    | Training candidate network for 3 epochs
+2026-10-31 20:31:56 | INFO    | Epoch 1/3 complete | avg loss 2.2097 | lr 0.001
+2026-10-31 20:32:01 | INFO    | Epoch 2/3 complete | avg loss 2.1664 | lr 0.001
+2026-10-31 20:32:06 | INFO    | Epoch 3/3 complete | avg loss 2.1467 | lr 0.001
+2026-10-31 20:32:06 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:45:08 | INFO    | Candidate vs best: candidate_14 vs best: 6W/12L/2D (score 35.0%, avg length 35.7) | promoted=False
+2026-10-31 22:45:08 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:45:16 | INFO    | Best vs random: best vs Random: 20W/0L/0D (score 100.0%, avg length 11.0)
+2026-10-31 22:45:16 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:45:23 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 19.3)
+2026-10-31 22:45:23 | INFO    | Iteration 14 metrics | policy 1.6585 | value 0.3407 | total 2.1467 | buffer 3429 | vs_random 1.0 | vs_best 0.35 | promoted False
+2026-10-31 22:45:23 | INFO    | Iteration 15: generating 16 self-play games
+2026-10-31 22:45:27 | INFO    | Self-play game 3/16 | moves=24 winner=2
+2026-10-31 22:45:31 | INFO    | Self-play game 6/16 | moves=17 winner=1
+2026-10-31 22:45:34 | INFO    | Self-play game 9/16 | moves=11 winner=1
+2026-10-31 22:45:37 | INFO    | Self-play game 12/16 | moves=9 winner=1
+2026-10-31 22:45:41 | INFO    | Self-play game 15/16 | moves=10 winner=2
+2026-10-31 22:45:42 | INFO    | Self-play game 16/16 | moves=13 winner=1
+2026-10-31 22:45:42 | INFO    | Self-play complete: 16 games, 246 examples, avg length 15.4, 18.2s
+2026-10-31 22:45:42 | INFO    | Training candidate network for 3 epochs
+2026-10-31 22:45:47 | INFO    | Epoch 1/3 complete | avg loss 2.2515 | lr 0.001
+2026-10-31 22:45:53 | INFO    | Epoch 2/3 complete | avg loss 2.2016 | lr 0.001
+2026-10-31 22:45:59 | INFO    | Epoch 3/3 complete | avg loss 2.1661 | lr 0.001
+2026-10-31 22:45:59 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:46:35 | INFO    | Candidate vs best: candidate_15 vs best: 15W/5L/0D (score 75.0%, avg length 24.4) | promoted=True
+2026-10-31 22:46:35 | INFO    | Candidate promoted to best at iteration 15
+2026-10-31 22:46:35 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:46:46 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 13.3)
+2026-10-31 22:46:46 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:46:53 | INFO    | Best vs tactical: best vs Tactical: 0W/10L/0D (score 0.0%, avg length 20.7)
+2026-10-31 22:46:54 | INFO    | Iteration 15 metrics | policy 1.6611 | value 0.3575 | total 2.1661 | buffer 3675 | vs_random 0.95 | vs_best 0.75 | promoted True
+2026-10-31 22:46:54 | INFO    | Iteration 16: generating 16 self-play games
+2026-10-31 22:46:57 | INFO    | Self-play game 3/16 | moves=10 winner=2
+2026-10-31 22:47:00 | INFO    | Self-play game 6/16 | moves=7 winner=1
+2026-10-31 22:47:02 | INFO    | Self-play game 9/16 | moves=10 winner=2
+2026-10-31 22:47:05 | INFO    | Self-play game 12/16 | moves=9 winner=1
+2026-10-31 22:47:09 | INFO    | Self-play game 15/16 | moves=17 winner=1
+2026-10-31 22:47:10 | INFO    | Self-play game 16/16 | moves=14 winner=2
+2026-10-31 22:47:10 | INFO    | Self-play complete: 16 games, 216 examples, avg length 13.5, 16.4s
+2026-10-31 22:47:10 | INFO    | Training candidate network for 3 epochs
+2026-10-31 22:47:17 | INFO    | Epoch 1/3 complete | avg loss 2.1623 | lr 0.001
+2026-10-31 22:47:23 | INFO    | Epoch 2/3 complete | avg loss 2.1351 | lr 0.001
+2026-10-31 22:47:30 | INFO    | Epoch 3/3 complete | avg loss 2.1093 | lr 0.001
+2026-10-31 22:47:30 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:47:48 | INFO    | Candidate vs best: candidate_16 vs best: 19W/1L/0D (score 95.0%, avg length 11.2) | promoted=True
+2026-10-31 22:47:48 | INFO    | Candidate promoted to best at iteration 16
+2026-10-31 22:47:48 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:47:56 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 11.1)
+2026-10-31 22:47:56 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:47:59 | INFO    | Best vs tactical: best vs Tactical: 5W/5L/0D (score 50.0%, avg length 10.2)
+2026-10-31 22:48:00 | INFO    | Iteration 16 metrics | policy 1.6265 | value 0.3360 | total 2.1093 | buffer 3891 | vs_random 0.95 | vs_best 0.95 | promoted True
+2026-10-31 22:48:00 | INFO    | Iteration 17: generating 16 self-play games
+2026-10-31 22:48:04 | INFO    | Self-play game 3/16 | moves=18 winner=2
+2026-10-31 22:48:08 | INFO    | Self-play game 6/16 | moves=19 winner=1
+2026-10-31 22:48:14 | INFO    | Self-play game 9/16 | moves=16 winner=2
+2026-10-31 22:48:20 | INFO    | Self-play game 12/16 | moves=13 winner=1
+2026-10-31 22:48:25 | INFO    | Self-play game 15/16 | moves=22 winner=2
+2026-10-31 22:48:27 | INFO    | Self-play game 16/16 | moves=29 winner=1
+2026-10-31 22:48:27 | INFO    | Self-play complete: 16 games, 318 examples, avg length 19.9, 27.4s
+2026-10-31 22:48:27 | INFO    | Training candidate network for 3 epochs
+2026-10-31 22:48:35 | INFO    | Epoch 1/3 complete | avg loss 2.1672 | lr 0.001
+2026-10-31 22:48:42 | INFO    | Epoch 2/3 complete | avg loss 2.1134 | lr 0.001
+2026-10-31 22:48:51 | INFO    | Epoch 3/3 complete | avg loss 2.0866 | lr 0.001
+2026-10-31 22:48:51 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:49:12 | INFO    | Candidate vs best: candidate_17 vs best: 17W/3L/0D (score 85.0%, avg length 12.2) | promoted=True
+2026-10-31 22:49:12 | INFO    | Candidate promoted to best at iteration 17
+2026-10-31 22:49:12 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:49:32 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 12.2)
+2026-10-31 22:49:32 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:49:46 | INFO    | Best vs tactical: best vs Tactical: 3W/7L/0D (score 30.0%, avg length 24.8)
+2026-10-31 22:49:46 | INFO    | Iteration 17 metrics | policy 1.6051 | value 0.3351 | total 2.0866 | buffer 4209 | vs_random 0.95 | vs_best 0.85 | promoted True
+2026-10-31 22:49:46 | INFO    | Iteration 18: generating 16 self-play games
+2026-10-31 22:49:53 | INFO    | Self-play game 3/16 | moves=14 winner=2
+2026-10-31 22:49:59 | INFO    | Self-play game 6/16 | moves=15 winner=1
+2026-10-31 22:50:03 | INFO    | Self-play game 9/16 | moves=14 winner=2
+2026-10-31 22:50:06 | INFO    | Self-play game 12/16 | moves=11 winner=1
+2026-10-31 22:50:10 | INFO    | Self-play game 15/16 | moves=11 winner=1
+2026-10-31 22:50:11 | INFO    | Self-play game 16/16 | moves=7 winner=1
+2026-10-31 22:50:11 | INFO    | Self-play complete: 16 games, 193 examples, avg length 12.1, 24.8s
+2026-10-31 22:50:11 | INFO    | Training candidate network for 3 epochs
+2026-10-31 22:50:22 | INFO    | Epoch 1/3 complete | avg loss 2.0961 | lr 0.001
+2026-10-31 22:50:35 | INFO    | Epoch 2/3 complete | avg loss 2.0657 | lr 0.001
+2026-10-31 22:50:46 | INFO    | Epoch 3/3 complete | avg loss 2.0532 | lr 0.001
+2026-10-31 22:50:46 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:51:19 | INFO    | Candidate vs best: candidate_18 vs best: 0W/10L/10D (score 25.0%, avg length 25.5) | promoted=False
+2026-10-31 22:51:19 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:51:30 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 15.7)
+2026-10-31 22:51:30 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:51:38 | INFO    | Best vs tactical: best vs Tactical: 1W/9L/0D (score 10.0%, avg length 22.6)
+2026-10-31 22:51:38 | INFO    | Iteration 18 metrics | policy 1.5830 | value 0.3241 | total 2.0532 | buffer 4402 | vs_random 0.95 | vs_best 0.25 | promoted False
+2026-10-31 22:51:38 | INFO    | Iteration 19: generating 16 self-play games
+2026-10-31 22:51:43 | INFO    | Self-play game 3/16 | moves=36 winner=2
+2026-10-31 22:51:45 | INFO    | Self-play game 6/16 | moves=13 winner=1
+2026-10-31 22:51:50 | INFO    | Self-play game 9/16 | moves=21 winner=1
+2026-10-31 22:51:53 | INFO    | Self-play game 12/16 | moves=15 winner=1
+2026-10-31 22:51:57 | INFO    | Self-play game 15/16 | moves=36 winner=2
+2026-10-31 22:51:58 | INFO    | Self-play game 16/16 | moves=7 winner=1
+2026-10-31 22:51:58 | INFO    | Self-play complete: 16 games, 296 examples, avg length 18.5, 20.1s
+2026-10-31 22:51:58 | INFO    | Training candidate network for 3 epochs
+2026-10-31 22:52:04 | INFO    | Epoch 1/3 complete | avg loss 2.1200 | lr 0.001
+2026-10-31 22:52:10 | INFO    | Epoch 2/3 complete | avg loss 2.0879 | lr 0.001
+2026-10-31 22:52:16 | INFO    | Epoch 3/3 complete | avg loss 2.0671 | lr 0.001
+2026-10-31 22:52:16 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:52:39 | INFO    | Candidate vs best: candidate_19 vs best: 10W/10L/0D (score 50.0%, avg length 15.4) | promoted=False
+2026-10-31 22:52:39 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:52:49 | INFO    | Best vs random: best vs Random: 19W/1L/0D (score 95.0%, avg length 14.2)
+2026-10-31 22:52:49 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:52:57 | INFO    | Best vs tactical: best vs Tactical: 2W/8L/0D (score 20.0%, avg length 22.5)
+2026-10-31 22:52:57 | INFO    | Iteration 19 metrics | policy 1.5784 | value 0.3425 | total 2.0671 | buffer 4698 | vs_random 0.95 | vs_best 0.5 | promoted False
+2026-10-31 22:52:57 | INFO    | Iteration 20: generating 16 self-play games
+2026-10-31 22:53:01 | INFO    | Self-play game 3/16 | moves=15 winner=1
+2026-10-31 22:53:04 | INFO    | Self-play game 6/16 | moves=18 winner=2
+2026-10-31 22:53:10 | INFO    | Self-play game 9/16 | moves=13 winner=1
+2026-10-31 22:53:15 | INFO    | Self-play game 12/16 | moves=18 winner=2
+2026-10-31 22:53:19 | INFO    | Self-play game 15/16 | moves=17 winner=1
+2026-10-31 22:53:22 | INFO    | Self-play game 16/16 | moves=30 winner=2
+2026-10-31 22:53:22 | INFO    | Self-play complete: 16 games, 292 examples, avg length 18.2, 24.2s
+2026-10-31 22:53:22 | INFO    | Training candidate network for 3 epochs
+2026-10-31 22:53:27 | INFO    | Epoch 1/3 complete | avg loss 2.1497 | lr 0.001
+2026-10-31 22:53:33 | INFO    | Epoch 2/3 complete | avg loss 2.1160 | lr 0.001
+2026-10-31 22:53:40 | INFO    | Epoch 3/3 complete | avg loss 2.0965 | lr 0.001
+2026-10-31 22:53:40 | INFO    | Evaluating candidate against current best (20 games)
+2026-10-31 22:54:20 | INFO    | Candidate vs best: candidate_20 vs best: 20W/0L/0D (score 100.0%, avg length 29.5) | promoted=True
+2026-10-31 22:54:20 | INFO    | Candidate promoted to best at iteration 20
+2026-10-31 22:54:20 | INFO    | Evaluating best against random agent (20 games)
+2026-10-31 22:54:36 | INFO    | Best vs random: best vs Random: 20W/0L/0D (score 100.0%, avg length 15.5)
+2026-10-31 22:54:36 | INFO    | Evaluating best against tactical baseline (10 games)
+2026-10-31 22:54:48 | INFO    | Best vs tactical: best vs Tactical: 0W/5L/5D (score 25.0%, avg length 32.8)
+2026-10-31 22:54:49 | INFO    | Iteration 20 metrics | policy 1.5801 | value 0.3703 | total 2.0965 | buffer 4990 | vs_random 1.0 | vs_best 1.0 | promoted True
+2026-10-31 22:54:49 | INFO    | Training complete at iteration 20

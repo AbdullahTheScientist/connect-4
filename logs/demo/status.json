@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "experiment": "demo",
+  "iteration": 20,
+  "total_iterations": 20,
+  "pid": 6636,
+  "buffer_size": 4990,
+  "best_checkpoint": "D:\\reinforcement learning\\alphazero-connect4\\checkpoints\\demo\\best.pt",
+  "updated": 1793512489.1595087
+}
