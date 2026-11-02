@@ -295,15 +295,3 @@ of every screen.
 
 UI tests use `SDL_VIDEODRIVER=dummy` and do not require a visible desktop. The screenshot script
 also runs headless.
-
-## Limitations
-
-- The demo run is deliberately small and CPU-friendly. It is evidence of a working learning
-  pipeline, not a superhuman Connect Four agent.
-- The tactical baseline is still stronger than the demo model in the recorded matchups.
-- Search quality is limited by the MCTS budget. Increasing simulations at play time helps but
-  cannot replace more training.
-- Most of the code is CPU-first. CUDA is selected automatically when available, but a large GPU
-  training run was not performed for the preserved demo.
-- Screenshots are 1280x800 and target that window size. Rendering uses a fixed layout rather than
-  a fully responsive scale.
